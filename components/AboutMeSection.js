@@ -7,10 +7,9 @@ export default function AboutMeSection() {
                 </h2>
                 <p className="text-lg text-gray-800 dark:text-gray-300 max-w-3xl mx-auto py-4">
                     Hi! I'm Rishi Patel, a passionate Computer Engineer with a love for
-                    software and hardware while learning about new technologies. I enjoy
-                    tackling complex problems and transforming ideas into real-world
-                    solutions. I am constantly learning and looking to contribute to
-                    innovative projects.
+                    software and hardware. I enjoy learning about new technologies and projects
+                    as well as passionate about how things work. I would love to collaborate and
+                    get to know more like-minded individuals!
                 </p>
             </div>
             <div className="flex justify-center gap-10 py-10">
