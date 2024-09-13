@@ -49,7 +49,7 @@ export default function ProjectsSection() {
                                 src={project.src}
                                 layout="responsive"
                                 width={400}
-                                height={350} 
+                                height={350}
                                 alt={project.title}
                             />
                             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-8 text-white text-center">
