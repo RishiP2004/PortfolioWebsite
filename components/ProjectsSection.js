@@ -3,7 +3,6 @@ import ttt from "../public/ttticon.png";
 import unimanagement from "../public/unimanagement.png";
 import lamp from "../public/lamp.png";
 import stockprediction from "../public/stockprediction.png";
-import { AiFillGithub } from "react-icons/ai"; // Import GitHub icon
 
 const projects = [
     {
@@ -31,7 +30,6 @@ const projects = [
         link: "https://github.com/RishiP2004/Stock-Prediction-System"
     }
 ];
-
 export default function ProjectsSection() {
     return (
         <section className="py-10">
@@ -43,18 +41,18 @@ export default function ProjectsSection() {
                         href={project.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex-shrink-0 w-80 border border-gray-300 dark:border-gray-700 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
+                        className="flex-shrink-0 w-96 border border-gray-300 dark:border-gray-700 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
                     >
                         <div className="relative">
                             <Image
                                 className="object-cover"
                                 src={project.src}
                                 layout="responsive"
-                                width={320}
-                                height={280}
+                                width={400}
+                                height={350} 
                                 alt={project.title}
                             />
-                            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-6 text-white text-center">
+                            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-8 text-white text-center">
                                 <h4 className="text-lg font-semibold">{project.title}</h4>
                                 <p className="text-sm">{project.description}</p>
                             </div>

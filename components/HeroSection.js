@@ -1,8 +1,8 @@
 import Image from "next/image";
 import { AiFillGithub, AiFillLinkedin, AiFillMail } from "react-icons/ai";
 import dp from "../public/dp.png";
-import {Typed} from "react-typed";
-import {useEffect, useState, useRef} from "react";
+import { Typed } from "react-typed";
+import { useEffect, useState, useRef } from "react";
 
 export default function HeroSection() {
     const [isClient, setIsClient] = useState(false);
@@ -10,11 +10,10 @@ export default function HeroSection() {
     useEffect(() => {
         setIsClient(true);
     }, []);
+
     const typedElement = useRef(null);
 
     useEffect(() => {
-        setIsClient(true);
-
         if (typedElement.current) {
             const typed = new Typed(typedElement.current, {
                 strings: ["Computer Engineer Student", "Software Engineer Student"],
@@ -31,7 +30,7 @@ export default function HeroSection() {
     return (
         <div className="text-center p-10 py-10">
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-                <Image src={dp} layout="fill" objectFit="cover" />
+                <Image src={dp} alt="Profile picture of Rishi Patel" layout="fill" objectFit="cover" />
             </div>
             <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
                 Rishi Patel
@@ -57,3 +56,4 @@ export default function HeroSection() {
         </div>
     );
 }
+
