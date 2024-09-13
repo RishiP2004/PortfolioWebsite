@@ -41,7 +41,7 @@ export default function ProjectsSection() {
                         href={project.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex-shrink-0 w-96 border border-gray-300 dark:border-gray-700 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
+                        className="flex-shrink-0 md:w-96 w-72 border border-gray-300 dark:border-gray-700 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 "
                     >
                         <div className="relative">
                             <Image
