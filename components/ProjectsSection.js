@@ -3,13 +3,14 @@ import ttt from "../public/ttticon.png";
 import unimanagement from "../public/unimanagement.png";
 import lamp from "../public/lamp.png";
 import stockprediction from "../public/stockprediction.png";
+import pipelinedcpu from "../public/pipelinedcpu.png";
 
 const projects = [
     {
-        src: ttt,
-        title: "TicTacToePlus",
-        description: "A classic Tic Tac Toe game with a modern design.",
-        link: "https://github.com/RishiP2004/TicTacToePlus"
+        src: stockprediction,
+        title: "Stock Prediction",
+        description: "A tool for predicting stock market trends.",
+        link: "https://github.com/RishiP2004/Stock-Prediction-System"
     },
     {
         src: unimanagement,
@@ -18,21 +19,27 @@ const projects = [
         link: "https://github.com/RishiP2004/UniManagement"
     },
     {
+        src: ttt,
+        title: "TicTacToePlus",
+        description: "A classic Tic Tac Toe game with a modern design.",
+        link: "https://github.com/RishiP2004/TicTacToePlus"
+    },
+    {
         src: lamp,
         title: "Smart Lamp",
         description: "A smart lamp with IoT capabilities.",
         link: "https://github.com/RishiP2004/SoundWifiLamp"
     },
     {
-        src: stockprediction,
-        title: "Stock Prediction",
-        description: "A tool for predicting stock market trends.",
-        link: "https://github.com/RishiP2004/Stock-Prediction-System"
+        src: pipelinedcpu,
+        title: "Pipelined CPU",
+        description: "A simple 16-bit pipelined CPU.",
+        link: "https://github.com/RishiP2004/PipelinedCPU"
     }
 ];
 export default function ProjectsSection() {
     return (
-        <section className="py-10">
+        <section className="py-6">
             <h3 className="text-3xl py-1 dark:text-white text-center font-bold">Projects/Experiences</h3>
             <div className="flex flex-row overflow-x-auto gap-8 py-12 font-semibold">
                 {projects.map((project, index) => (

@@ -4,7 +4,7 @@ import hardware from "../public/hardware.png";
 
 export default function SkillsSection() {
     return (
-        <section className="py-6">
+        <section className="py-1">
             <h2 className="text-4xl font-semibold py-6 dark:text-teal-400 text-center">
                 Skills
             </h2>
@@ -32,7 +32,7 @@ export default function SkillsSection() {
                         <div className="w-full sm:w-1/3 px-2 text-lg">
                             <p className="py-4 font-bold">Agile Methodologies</p>
                             <ul>
-                                {['Scrum', 'Agile', 'SOLID Principles', 'Design Patterns', 'Software Testing', 'Documentation Control', 'Performance Optimization'].map((tool) => (
+                                {['Agile', 'Scrum', 'SOLID Principles', 'Design Patterns', 'Software Testing', 'Documentation Control', 'Performance Optimization'].map((tool) => (
                                     <li className="text-gray-800 py-1" key={tool}>{tool}</li>
                                 ))}
                             </ul>
@@ -43,7 +43,7 @@ export default function SkillsSection() {
                     <Image src={hardware} alt="Hardware skills icon" width={100} height={100} />
                     <h3 className="text-xl font-bold font-medium pt-8 pb-2">Hardware Skills</h3>
                     <ul>
-                        {['Arduino', 'VHDL', 'PCB Design'].map((tool) => (
+                        {['Arduino', 'VHDL', 'Verilog', 'PCB Design', 'Testbench', 'Quartus'].map((tool) => (
                             <li className="text-gray-800 py-1" key={tool}>{tool}</li>
                         ))}
                     </ul>
