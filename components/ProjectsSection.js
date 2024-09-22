@@ -15,13 +15,13 @@ const projects = [
     {
         src: unimanagement,
         title: "Uni Management",
-        description: "An app for managing university tasks and schedules.",
+        description: "An app for managing grades, sections and flow.",
         link: "https://github.com/RishiP2004/UniManagement"
     },
     {
         src: ttt,
         title: "TicTacToePlus",
-        description: "A classic Tic Tac Toe game with a modern design.",
+        description: "A classic Tic Tac Toe game with PvP/PvE",
         link: "https://github.com/RishiP2004/TicTacToePlus"
     },
     {

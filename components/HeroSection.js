@@ -46,7 +46,7 @@ export default function HeroSection() {
                     className="cursor-pointer hover:text-teal-500 transition-colors"
                 />
                 <AiFillMail
-                    onClick={() => window.location.href = "mailto:patelrishi170@example.com"}
+                    onClick={() => window.location.href = "mailto:patelrishi1704@gmail.com"}
                     className="cursor-pointer hover:text-teal-500 transition-colors"
                 />
             </div>
