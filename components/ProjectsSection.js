@@ -20,9 +20,9 @@ const projects = [
     },
     {
         src: ttt,
-        title: "TicTacToePlus",
-        description: "A classic Tic Tac Toe game with PvP/PvE",
-        link: "https://github.com/RishiP2004/TicTacToePlus"
+        title: "GameHub",
+        description: "A small game hub with TicTacToe, and Ninja (S-P and M-P options)",
+        link: "https://github.com/RishiP2004/GameHub"
     },
     {
         src: lamp,
