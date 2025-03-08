@@ -1,6 +1,6 @@
 import Image from "next/image";
 import {AiFillFilePdf, AiFillGithub, AiFillLinkedin, AiFillMail} from "react-icons/ai";
-import dp from "../public/dp_old.png";
+import dp from "../public/dp.png";
 import { Typed } from "react-typed";
 import { useEffect, useState, useRef } from "react";
 
