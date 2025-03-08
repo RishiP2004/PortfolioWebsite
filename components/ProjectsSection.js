@@ -35,7 +35,7 @@ const projects = [
         title: "Pipelined RISC CPU",
         description: "An implementation of a 16-bit pipelined RISC CPU.",
         link: "https://github.com/RishiP2004/Pipelined-RISC-CPU"
-    }
+    },
 ];
 export default function ProjectsSection() {
     return (

@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { AiFillGithub, AiFillLinkedin, AiFillMail } from "react-icons/ai";
-import dp from "../public/dp.png";
+import {AiFillFilePdf, AiFillGithub, AiFillLinkedin, AiFillMail} from "react-icons/ai";
+import dp from "../public/dp_old.png";
 import { Typed } from "react-typed";
 import { useEffect, useState, useRef } from "react";
 
@@ -47,6 +47,10 @@ export default function HeroSection() {
                 />
                 <AiFillMail
                     onClick={() => window.location.href = "mailto:patelrishi1704@gmail.com"}
+                    className="cursor-pointer hover:text-teal-500 transition-colors"
+                />
+                <AiFillFilePdf
+                    onClick={() => window.location.href = "https://rishipatel17.netlify.app/resume.pdf"}
                     className="cursor-pointer hover:text-teal-500 transition-colors"
                 />
             </div>
