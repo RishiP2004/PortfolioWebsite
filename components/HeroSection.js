@@ -3,6 +3,7 @@ import {AiFillFilePdf, AiFillGithub, AiFillLinkedin, AiFillMail} from "react-ico
 import dp from "../public/dp.png";
 import { Typed } from "react-typed";
 import { useEffect, useState, useRef } from "react";
+import { Tooltip } from "react-tooltip";
 
 export default function HeroSection() {
     const [isClient, setIsClient] = useState(false);
@@ -40,18 +41,22 @@ export default function HeroSection() {
                 <AiFillLinkedin
                     onClick={() => window.location.href = "https://linkedin.com/rishi-patel-a5622a284"}
                     className="cursor-pointer hover:text-teal-500 transition-colors"
+                    title="LinkedIn"
                 />
                 <AiFillGithub
                     onClick={() => window.location.href = "https://github.com/RishiP2004"}
                     className="cursor-pointer hover:text-teal-500 transition-colors"
+                    title="Github"
                 />
                 <AiFillMail
                     onClick={() => window.location.href = "mailto:patelrishi1704@gmail.com"}
                     className="cursor-pointer hover:text-teal-500 transition-colors"
+                    title="Email"
                 />
                 <AiFillFilePdf
                     onClick={() => window.location.href = "https://rishipatel17.netlify.app/resume.pdf"}
                     className="cursor-pointer hover:text-teal-500 transition-colors"
+                    title="Resume"
                 />
             </div>
         </div>
